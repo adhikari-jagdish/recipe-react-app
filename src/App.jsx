@@ -1,5 +1,11 @@
+import Search from "./components/Search";
+
 function App() {
-  return <div>React first app</div>;
+  return (
+    <div>
+      <Search />
+    </div>
+  );
 }
 
 export default App;
